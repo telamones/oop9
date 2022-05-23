@@ -4,7 +4,6 @@ int main() {
     double x;
     cout << "enter worth:";
     cin >> x;
-    Property xx;
 
     Property** arr = new Property* [7];
 
@@ -23,4 +22,11 @@ int main() {
     for (int i=0; i<7; i++) {
         cout << arr[i]->tax() << endl;
     }
+
+    for (int i=0; i<7; i++) {
+        delete arr[i];
+    }
+
 }
+
+
