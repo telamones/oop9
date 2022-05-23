@@ -22,7 +22,7 @@ public:
 class Apartment : public Property
 {
 public:
-    Apartment(double w=0) : Property (w){
+    Apartment(double w=0) {
         worth = w;
     };
 
@@ -34,7 +34,7 @@ public:
 class Car : public Property
 {
 public:
-    Car(double w=0) : Property (w){
+    Car(double w=0) {
         worth = w;
     };
 
@@ -46,7 +46,7 @@ public:
 class CountryHouse : public Property
 {
 public:
-    CountryHouse(double w=0) : Property (w){
+    CountryHouse(double w=0) {
         worth = w;
     };
 
