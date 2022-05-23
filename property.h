@@ -16,7 +16,7 @@ public:
         worth = w;
     };
 
-    virtual double tax() {};
+    virtual double tax() = 0;
 };
 
 class Apartment : public Property
